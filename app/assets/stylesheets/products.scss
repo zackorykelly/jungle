@@ -68,3 +68,10 @@ main section.products-show {
     }
   }
 }
+
+span.sold-out {
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding: 6px;
+}
