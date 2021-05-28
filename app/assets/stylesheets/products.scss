@@ -75,3 +75,15 @@ span.sold-out {
   top: 0;
   padding: 6px;
 }
+
+li.loggedIn {
+  margin-top: 15px;
+  margin-right: 10px;
+  color: rgb(94, 94, 94);
+}
+
+div.signUp form {
+  display: flex;
+  flex-direction: column;
+  max-width: 350px;
+}

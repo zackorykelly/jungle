@@ -1,5 +1,6 @@
 <h1>Signup!</h1>
 
+<div class="signUp">
 <%= form_for :user, url: '/users' do |f| %>
 
   First Name: <%= f.text_field :firstname %>
@@ -10,3 +11,4 @@
   <%= f.submit "Submit" %>
 
 <% end %>
+</div>
